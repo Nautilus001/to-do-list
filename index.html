@@ -1,46 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <link rel="stylesheet" type="text/css" href="./main.css" />
     <head>
-        <link rel="stylesheet" type="text/css" href="main.css" />
-        <script src="papaparse.js"></script>
-        <meta charset="utf-8">    
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-            To Do 2022-2023
-        </title>
+        <title>Practice Page</title>
     </head>
-    <body id="body">
-        <header>
+    <body>
+        <div class="header-widget">
+            <div class="title-text vertical-center">Supplemental Title</div>
+        </div>
+        <div class="body-widget">
+            <div class="text-widget">
+                <p class="info-text" style="text-align: center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit 
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui 
+                    officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
 
-            <h1>            
-                <!--<img src="dancingdino.gif" style="max-width: 100px; max-height:100px"/>-->
-                Task List 2022
-            </h1>
-            
-            <form id='new-task-form'>
-                <input type="text" class="new-task-input" id="class-input" placeholder="Class"/>
-                <input type="text" class="new-task-input" id="assignment-input" placeholder="Assignment"/>
-                <input type="date" class="new-task-input" id="date-input" placeholder="Due Date">
-                <input type="submit" id="new-task-submit" value="Add Task" id="Submit"/>
-            </form>
-        </header>
-        <main>
-            <section class="task-list">
-                <h2>Tasks</h2>
-                <div id="tasks">
-                    <!--<div class="task">
-                        <div class="content">
-                            <input type="text" class="text" value="my shining task" readonly>
-                        </div>
-                        <div class="actions">
-                            <button class="edit">EDIT</button>
-                            <button class="delete">DELETE</button>
-                        </div>
-                    </div>-->
-                    
-                </div>
-            </section>
-        </main>
-        <script src="main.js"></script>
     </body>
 </html>
